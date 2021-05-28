@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(bg-8.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(107, 14, 14, 0.973);
+  font-family: "Reggae One", cursive;
+}
+
+.logo-box {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.logo-box img {
+  cursor: pointer;
+}
+
+.logo-box img:hover {
+  color: #a3170d;
+}
+
+.contact-box {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1.5rem;
+}
+
+.contact-box i {
+  cursor: pointer;
+}
+
+.contact-box i:hover {
+  color: #a3170d;
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  @-webkit-keyframes flash {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+}
+
+.heading-main {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.heading-sub {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  @-webkit-keyframes slideInRight {
+    0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      visibility: visible;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+}
+
+.img-box {
+  position: absolute;
+  top: 32%;
+  left: 39%;
+}
+
+.img-box img {
+  height: 20rem;
+  width: auto;
+}
+
+/*--------------------------------Animatation Section---------------------------*/
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutUp {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+.btn-box {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  margin-bottom: 15%;
+}
+
+.myButton {
+  font-family: "Reggae One", cursive;
+  box-shadow: inset 0px 1px 0px 0px #f5978e;
+  background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+  background-color: rgba(107, 14, 14, 0.973);
+  border-radius: 0.6rem;
+  border: 1px solid #d02718;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.7rem 3rem;
+  text-shadow: 0px 1px 0px #810e05;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+  background-color: #a3170d;
+  cursor: pointer;
+}
+
+.modal {
+  background-color: #9c2121;
+  color: white;
+  border-radius: 1.5rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 3rem;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+/*--------------------------------- @Media Queries-------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  /* For tablets: */
+
+  .heading-primary {
+    font-size: 1.2rem;
+  }
+  .heading-sub {
+    font-size: 0.5rem;
+  }
+
+  .logo-box img {
+    height: 2rem;
+    width: auto;
+  }
+
+  .contact-box {
+    font-size: 1rem;
+  }
+
+  .img-box img {
+    height: 15rem;
+    width: auto;
+    margin-top: 0.7rem;
+  }
+
+  .btn-box {
+    top: 78%;
+    left: 40%;
+  }
+
+  .myButton {
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+  }
+
+  .modal {
+    font-size: 0.8rem;
+  }
+  .close-modal {
+    font-size: 0.8rem;
+  }
+  .overlay {
+    width: auto;
+    height: auto;
+  }
+}
