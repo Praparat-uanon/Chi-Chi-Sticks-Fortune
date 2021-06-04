@@ -4,6 +4,7 @@ I'm currently learning HTML, CSS and JAVACSRIPT.
 Im interested in making a very cool and useful real world reponsive website.
 
 About this project!
+https://praparat-uanon.github.io/Chi-Chi-Sticks-Fortune/
 This is my first ever self building simple and easy project.
 It is called "Chi-Chi Sticks Fortune Weekly".
 The project inspired by "chinese fortune cookies" mixed with Thai Fortune Sticks.
