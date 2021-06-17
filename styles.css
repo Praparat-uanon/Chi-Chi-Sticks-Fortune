@@ -231,12 +231,15 @@ body {
   .heading-sub {
     letter-spacing: 0.1rem;
   }
+  .img-box{
+    left: 35%;
+  }
   .img-box img {
     height: 25rem;
     width: auto;
   }
   .btn-box {
-    top: 68%;
+    top: 80%;
   }
 }
 
