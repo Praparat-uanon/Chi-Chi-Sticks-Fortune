@@ -238,7 +238,7 @@ body {
     width: auto;
   }
   .btn-box {
-    top: 40%;
+    top: 30%;
   }
 }
 
@@ -268,7 +268,7 @@ body {
   }
 
   .btn-box {
-    top: 40%;
+    top: 30%;
     left: 40%;
   }
 
@@ -281,7 +281,7 @@ body {
     font-size: 0.8rem;
   }
   .close-modal {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .overlay {
     width: auto;
