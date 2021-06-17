@@ -238,6 +238,9 @@ body {
     height: 25rem;
     width: auto;
   }
+  .btn-box {
+    top: 70%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
