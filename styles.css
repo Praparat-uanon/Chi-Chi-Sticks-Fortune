@@ -232,14 +232,11 @@ body {
     letter-spacing: 0.1rem;
   }
   .img-box{
-    left: 35%;
+    left: 30%;
   }
   .img-box img {
     height: 25rem;
     width: auto;
-  }
-  .btn-box {
-    top: 80%;
   }
 }
 
