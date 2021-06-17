@@ -221,9 +221,7 @@ body {
 /*--------------------------------- @Media Queries-------------------------------*/
 
 @media only screen and (max-width: 375px) {
-  body {
-    height: 80vh;
-  }
+
   .heading-primary {
     font-size: 1rem;
   }
@@ -238,7 +236,7 @@ body {
     width: auto;
   }
   .btn-box {
-    top: 30%;
+    top: 40%;
   }
 }
 
@@ -268,7 +266,7 @@ body {
   }
 
   .btn-box {
-    top: 30%;
+    top: 40%;
     left: 40%;
   }
 
