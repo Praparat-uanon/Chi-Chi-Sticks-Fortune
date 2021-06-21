@@ -209,6 +209,9 @@ body {
 
 /*--------------------------------- @Media Queries-------------------------------*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+   .logo-box img {
+    height: 3rem;
+  }
   .heading-main {
     margin-top: 15%;
     font-size: 1rem;
