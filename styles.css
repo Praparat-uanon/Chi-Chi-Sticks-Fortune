@@ -18,7 +18,9 @@ body {
 }
 
 .logo-box img {
-  cursor: pointer;
+  height: 5rem;
+  border-radius: 50%;
+ 
 }
 
 .logo-box img:hover {
@@ -28,7 +30,7 @@ body {
 .contact-box {
   position: absolute;
   top: 5%;
-  right: 5%;
+  right: 8%;
   font-size: 1.5rem;
 }
 
@@ -210,13 +212,13 @@ body {
 /*--------------------------------- @Media Queries-------------------------------*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
    .logo-box img {
-    height: 3rem;
+    height: 2.5rem;
   }
   .heading-main {
     margin-top: 15%;
     font-size: 1rem;
   }
   .heading-main p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
 }
