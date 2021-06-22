@@ -192,6 +192,7 @@ body {
     padding: 0.6rem 3rem;
   }
   .close-modal {
-    right: 1rem;
+    top:0.7;
+    right: 0.5rem;
   }
 }
