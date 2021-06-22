@@ -22,44 +22,6 @@ body {
   border-radius: 50%;
 }
 
-.logo-box img:hover {
-  color: #a3170d;
-}
-
-.contact-box {
-  position: absolute;
-  top: 5%;
-  right: 8%;
-  font-size: 1.5rem;
-}
-
-.contact-box a {
-  cursor: pointer;
-  color: rgb(85, 166, 231);
-}
-
-.contact-box a:hover {
-  color: #a3170d;
-  -webkit-animation-name: flash;
-  animation-name: flash;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-
-  @-webkit-keyframes flash {
-    0%,
-    50%,
-    100% {
-      opacity: 1;
-    }
-
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
-}
 /* ---------------------------------Main Section----------------------------- */
 .container {
   display: flex;
@@ -221,7 +183,11 @@ body {
   .heading-main p {
     font-size: 0.9rem;
   }
-   .modal {
-    top: 43%;
+  .modal {
+    top: 38%;
+  }
+  .myButton {
+    font-size: 0.7;
+    padding: 0.7rem 5rem;
   }
 }
