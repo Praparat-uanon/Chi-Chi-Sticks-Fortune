@@ -191,4 +191,7 @@ body {
     font-size: 0.5;
     padding: 0.6rem 3rem;
   }
+  .close-modal {
+    right: 1rem;
+  }
 }
