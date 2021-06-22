@@ -184,7 +184,8 @@ body {
     font-size: 0.9rem;
   }
   .modal {
-    top: 35%;
+    top: 32%;
+    padding: 1rem 3rem;
   }
   .myButton {
     font-size: 0.5;
