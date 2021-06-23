@@ -14,11 +14,11 @@ body {
 .logo-box {
   position: absolute;
   top: 5%;
-  left: 5%;
+  left: 3%;
 }
 
 .logo-box img {
-  height: 5rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
@@ -31,7 +31,6 @@ body {
 }
 
 .heading-main {
-  margin-top: 10%;
   font-size: 1.3;
   text-align: center;
 }
@@ -139,6 +138,7 @@ body {
 }
 
 .modal {
+  display: flex;
   background-color: #9c2121;
   color: white;
   border-radius: 1.5rem;
@@ -172,12 +172,12 @@ body {
 }
 
 /*--------------------------------- @Media Queries-------------------------------*/
-@media only screen and (min-device-width: 375px){
+@media only screen and (min-device-width: 375px) {
   .logo-box img {
     height: 2.5rem;
   }
   .heading-main {
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 1rem;
   }
   .heading-main p {
@@ -192,8 +192,8 @@ body {
     padding: 0.6rem 3rem;
   }
   .close-modal {
-    font-size:1rem;
-    top:0.7;
+    font-size: 1rem;
+    top: 0.7;
     right: 0.5rem;
   }
 }
@@ -206,4 +206,3 @@ body {
     padding: 1.2rem 3rem;
   }
 }
-
